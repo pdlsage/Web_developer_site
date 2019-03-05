@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    font-family: Ariel, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: #333;
     color: #fff;
     font-size: 1.1em;
@@ -29,10 +29,10 @@ p {
 
 .btn {
     display: inline-block;
-    background: rgb(78, 47, 47);
+    background: rgb(134, 69, 69);
     color: #fff;
     text-decoration: none;
-    padding: 1em, 2em;
+    padding: .5em 2em .5em 2em;
     border: 1px solid #666;
     margin: .5em, 0;
 }
@@ -51,8 +51,8 @@ p {
 }
 
 #showcase .bg-image {
-    position: absolute;
     background: #333;
+    position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,6 +157,7 @@ p {
 
     #section-a .content-text p {
         padding-top: 0;
+        margin: 0;
     }
 
     .content-wrap, 
